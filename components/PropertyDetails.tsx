@@ -12,18 +12,22 @@ interface PropertyDetailsProps {
   lang: Language;
 }
 
-// Completely new list of reliable, high-quality interior images
+// Updated with verified reliable links to standard interior/detail shots
 const INTERIOR_IMAGES = [
-  'https://images.unsplash.com/photo-1616486338812-3dadae4b4f9d?q=80&w=1200&auto=format&fit=crop', // Modern Living Room
-  'https://images.unsplash.com/photo-1616137466211-f939a420be84?q=80&w=1200&auto=format&fit=crop', // Bright Bedroom
-  'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop', // Elegant Sofa
-  'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=1200&auto=format&fit=crop', // Modern Furniture
-  'https://images.unsplash.com/photo-1617806118233-18e1de247200?q=80&w=1200&auto=format&fit=crop', // Clean Kitchen
-  'https://images.unsplash.com/photo-1595558171673-e79482169081?q=80&w=1200&auto=format&fit=crop', // Zen Bedroom
-  'https://images.unsplash.com/photo-1600585152220-90363fe7e115?q=80&w=1200&auto=format&fit=crop', // Kitchen Island
-  'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1200&auto=format&fit=crop', // Contemporary Living
-  'https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1200&auto=format&fit=crop', // Cozy Corner
-  'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=1200&auto=format&fit=crop'  // Spacious Interior
+  'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?q=80&w=1200&auto=format&fit=crop', // Classic Apartment
+  'https://images.unsplash.com/photo-1522771753033-6a9a6f9f7258?q=80&w=1200&auto=format&fit=crop', // Clean Bedroom
+  'https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?q=80&w=1200&auto=format&fit=crop', // Modern Living
+  'https://images.unsplash.com/photo-1484154218962-a1c002085d2f?q=80&w=1200&auto=format&fit=crop', // Kitchen
+  'https://images.unsplash.com/photo-1505693314120-0d443867891c?q=80&w=1200&auto=format&fit=crop', // Cozy Bed
+  'https://images.unsplash.com/photo-1556912172-45b7abe8b7e1?q=80&w=1200&auto=format&fit=crop', // Bright Kitchen
+  'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1200&auto=format&fit=crop', // Dining Room
+  'https://images.unsplash.com/photo-1463797221720-6b07e6426c24?q=80&w=1200&auto=format&fit=crop', // Cozy Living
+  'https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=1200&auto=format&fit=crop', // Minimalist Decor
+  'https://images.unsplash.com/photo-1499955085172-a104c9463ece?q=80&w=1200&auto=format&fit=crop', // Bedroom Light
+  'https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?q=80&w=1200&auto=format&fit=crop', // Modern Interior
+  'https://images.unsplash.com/photo-1501183638710-841dd1904471?q=80&w=1200&auto=format&fit=crop', // Cozy Home
+  'https://images.unsplash.com/photo-1529408686214-b48b8532f7d6?q=80&w=1200&auto=format&fit=crop', // Lounge Area
+  'https://images.unsplash.com/photo-1502005229766-939760a58531?q=80&w=1200&auto=format&fit=crop', // Simple Bedroom
 ];
 
 const PropertyDetails: React.FC<PropertyDetailsProps> = ({ property, onBack, lang }) => {

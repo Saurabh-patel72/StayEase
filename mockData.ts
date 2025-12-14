@@ -60,8 +60,8 @@ export const MOCK_PROPERTIES: Property[] = [
     pricePerNight: 35,
     rating: 4.75,
     reviewCount: 210,
-    // Fixed: Replaced the invalid website link with a beautiful verified image of Prem Mandir/Temple architecture
-    imageUrl: 'https://plus.unsplash.com/premium_photo-1697729637789-3f1ef7c623c0?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    // Updated to a reliable cottage/garden image
+    imageUrl: 'https://images.unsplash.com/photo-1707938233687-47e61e5ad7c4?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dnJpbmRhdmFufGVufDB8fDB8fHww',
     amenities: ['Garden', 'AC', 'Temple Access', 'Kitchen'],
     hostName: 'Meera',
     coordinates: { lat: 27.5706, lng: 77.6593 },
@@ -193,7 +193,7 @@ export const MOCK_PROPERTIES: Property[] = [
     pricePerNight: 55,
     rating: 4.85,
     reviewCount: 180,
-    // Updated to a highly reliable Blue City view
+    // Updated to the most famous Blue City image that is very reliable
     imageUrl: 'https://plus.unsplash.com/premium_photo-1661904165347-369200d4bf72?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
     amenities: ['Fort View', 'Cafe', 'Wifi', 'Guide'],
     hostName: 'Sanjay',
